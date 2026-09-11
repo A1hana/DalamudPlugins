@@ -1,0 +1,25 @@
+[
+  {
+    "Author": "Aihana",
+    "Name": "Samurai PvP — 斩铁剑助手",
+    "InternalName": "SamuraiPvp",
+    "AssemblyVersion": "1.0.0.0",
+    "Punchline": "连续选择最佳崩破目标，预测斩杀人数，手动释放 LB。",
+    "Description": "仅在武士 PvP 生效。LB 就绪时连续选择 5 米内预计斩杀人数最多的目标，过滤无敌、受保护、兵器和过量护盾，提供斩铁剑防误触及人数 HUD。不自动使用任何技能。",
+    "RepoUrl": "https://github.com/A1hana/DalamudPlugins",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Tags": [
+      "pvp",
+      "samurai",
+      "limit break",
+      "targeting"
+    ],
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/A1hana/DalamudPlugins/releases/download/SamuraiPvp-v1.0.0.0/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/A1hana/DalamudPlugins/releases/download/SamuraiPvp-v1.0.0.0/latest.zip",
+    "DownloadLinkTesting": "https://github.com/A1hana/DalamudPlugins/releases/download/SamuraiPvp-v1.0.0.0/latest.zip",
+    "LastUpdate": 1789089645
+  }
+]
