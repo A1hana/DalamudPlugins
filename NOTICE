@@ -1,0 +1,15 @@
+Samurai PvP — Zantetsuken target selection and protection
+Copyright (c) 2026 Aihana
+
+This project adapts protection-hook structure and status filtering from
+FFXIV-AutoPVPLimitBreak / PvpAutoLb:
+Copyright (c) 2026 Xeldar Alz
+Target-only modifications copyright (c) 2026 Aihana
+
+Changes: a standalone Samurai-only plugin with own-source Kuzushi checks,
+shield-aware eligibility, continuous maximum-coverage targeting, manual-only
+execution protection, and a Chinese UI.
+
+Distributed under GNU AGPL version 3 or later. See LICENSE.md.
+Corresponding source: https://github.com/A1hana/DalamudPlugins
+Existing third-party license notices are preserved.

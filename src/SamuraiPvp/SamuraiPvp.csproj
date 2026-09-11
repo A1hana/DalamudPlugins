@@ -1,0 +1,12 @@
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+  <PropertyGroup>
+    <AssemblyName>SamuraiPvp</AssemblyName>
+    <RootNamespace>SamuraiPvp</RootNamespace>
+    <Version>1.0.0.0</Version>
+    <Authors>Aihana</Authors>
+    <Description>Samurai PvP target selection and manual Zantetsuken protection.</Description>
+    <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <IsPackable>false</IsPackable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+</Project>
