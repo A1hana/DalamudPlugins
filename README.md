@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/pluginmaster.json
 
 输入 `/aihanapvp` 打开统一设置，`/tyniaradar` 打开雷达面板，原 `/0x` 命令继续可用。安装整合版前请停用原来的 `0xPvpPlugin` 和 `TyniaPVPRadar`。首次启用会读取两者的旧配置，旧配置文件不会修改。
 
-安装包：[AihanaPvp-1.0.0.0.zip](https://raw.githubusercontent.com/A1hana/DalamudPlugins/AihanaPvp-v1.0.0.0/packages/AihanaPvp-1.0.0.0.zip)。已通过本地 API 15 编译、配置迁移与安装包校验；游戏内效果尚未验证。组件来源与许可声明见该安装包内的 `THIRD_PARTY.txt`。
+通过上面的自定义插件仓库链接，直接在游戏内搜索 **Aihana PVP** 安装。插件列表会从本仓库的版本化安装包获取文件，安装和更新均在游戏内完成。已通过本地 API 15 编译、配置迁移与安装包校验；游戏内效果尚未验证。组件来源与许可声明见安装包内的 `THIRD_PARTY.txt`。
 
 ## 斩铁剑助手
 
