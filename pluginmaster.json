@@ -21,5 +21,29 @@
     "DownloadLinkUpdate": "https://github.com/A1hana/DalamudPlugins/releases/download/SamuraiPvp-v1.0.0.0/latest.zip",
     "DownloadLinkTesting": "https://github.com/A1hana/DalamudPlugins/releases/download/SamuraiPvp-v1.0.0.0/latest.zip",
     "LastUpdate": 1789089645
+  },
+  {
+    "Author": "Aihana",
+    "Name": "Aihana PVP · 忍者与雷达",
+    "InternalName": "AihanaPvp",
+    "AssemblyVersion": "1.0.0.0",
+    "Punchline": "忍者辅助、完整战场雷达、标记与关注列表",
+    "Description": "整合 API 15 忍者辅助与本地完整版 PVP 雷达。包含忍者低血量目标选择、星遁天诛热栏防误触、三印按钮调整、移动设置、3D 与地图雷达、玩家列表、标记、关注列表、连线和目标信息增强。输入 /aihanapvp 或 /0x 打开统一设置，/tyniaradar 打开雷达面板。首次启用自动读取原插件配置。启用前请停用 0xPvpPlugin 与 TyniaPVPRadar 旧插件。",
+    "RepoUrl": "https://github.com/A1hana/DalamudPlugins",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "Tags": [
+      "pvp",
+      "ninja",
+      "radar",
+      "忍者",
+      "雷达"
+    ],
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/A1hana/DalamudPlugins/releases/download/AihanaPvp-v1.0.0.0/AihanaPvp-1.0.0.0.zip",
+    "DownloadLinkUpdate": "https://github.com/A1hana/DalamudPlugins/releases/download/AihanaPvp-v1.0.0.0/AihanaPvp-1.0.0.0.zip",
+    "DownloadLinkTesting": "https://github.com/A1hana/DalamudPlugins/releases/download/AihanaPvp-v1.0.0.0/AihanaPvp-1.0.0.0.zip",
+    "LastUpdate": 1790075743
   }
 ]

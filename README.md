@@ -1,6 +1,6 @@
 # Aihana Dalamud Plugins
 
-FF14 Dalamud 插件仓库，目前提供 **Samurai PvP · 斩铁剑助手**（API 15）。
+FF14 Dalamud 插件仓库，提供 **Samurai PvP · 斩铁剑助手** 与 **Aihana PVP · 忍者与雷达**（API 15）。
 
 ## 安装
 
@@ -10,7 +10,15 @@ FF14 Dalamud 插件仓库，目前提供 **Samurai PvP · 斩铁剑助手**（AP
 https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/pluginmaster.json
 ```
 
-在插件安装器中刷新列表，搜索 **Samurai PvP** 并安装。后续更新通过同一插件源获取。
+在插件安装器中刷新列表，搜索 **Samurai PvP** 或 **Aihana PVP** 并安装。后续更新通过同一插件源获取。
+
+## 忍者与雷达整合版
+
+**Aihana PVP · 忍者与雷达** 把忍者 PvP 的低血量目标选择、星遁天诛热栏防误触、三印按钮调整及移动设置，与完整战场雷达合并到一个插件。雷达保留地图与 3D 绘制、玩家列表、标记、关注列表、连线及目标信息增强。
+
+输入 `/aihanapvp` 打开统一设置，`/tyniaradar` 打开雷达面板，原 `/0x` 命令继续可用。安装整合版前请停用原来的 `0xPvpPlugin` 和 `TyniaPVPRadar`。首次启用会读取两者的旧配置，旧配置文件不会修改。
+
+安装包位于 [AihanaPvp-v1.0.0.0](https://github.com/A1hana/DalamudPlugins/releases/tag/AihanaPvp-v1.0.0.0)。已通过本地 API 15 编译、配置迁移与安装包校验；游戏内效果尚未验证。组件来源与许可声明见该安装包内的 `THIRD_PARTY.txt`。
 
 ## 斩铁剑助手
 
@@ -25,7 +33,7 @@ https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/pluginmaster.json
 
 ## 源码与构建
 
-源码位于 [`src/SamuraiPvp`](src/SamuraiPvp)，安装包见 [Releases](https://github.com/A1hana/DalamudPlugins/releases)。需要 .NET 10 SDK 和 Dalamud API 15 开发文件：
+武士插件源码位于 [`src/SamuraiPvp`](src/SamuraiPvp)，各安装包见 [Releases](https://github.com/A1hana/DalamudPlugins/releases)。构建武士插件需要 .NET 10 SDK 和 Dalamud API 15 开发文件：
 
 ```powershell
 ./build.ps1 -DalamudLibPath 'C:\path\to\dalamud-dev'
@@ -33,4 +41,4 @@ https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/pluginmaster.json
 
 构建生成 `dist/latest.zip` 并更新插件列表。发布时先将 ZIP 上传到脚本给出的 Release 标签，再提交更新后的 `pluginmaster.json`。列表采用数组格式，可继续加入其他插件。
 
-许可证：[AGPL-3.0-or-later](LICENSE.md)。来源声明见 [NOTICE](NOTICE)。
+武士插件许可证：[AGPL-3.0-or-later](LICENSE.md)。来源声明见 [NOTICE](NOTICE)。
