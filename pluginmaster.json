@@ -24,26 +24,29 @@
   },
   {
     "Author": "Aihana",
-    "Name": "Aihana PVP · 忍者与雷达",
+    "Name": "Aihana PVP · 职业辅助与雷达",
     "InternalName": "AihanaPvp",
-    "AssemblyVersion": "1.0.0.0",
-    "Punchline": "忍者辅助、完整战场雷达、标记与关注列表",
-    "Description": "整合 API 15 忍者辅助与本地完整版 PVP 雷达。包含忍者低血量目标选择、星遁天诛热栏防误触、三印按钮调整、移动设置、3D 与地图雷达、玩家列表、标记、关注列表、连线和目标信息增强。输入 /aihanapvp 或 /0x 打开统一设置，/tyniaradar 打开雷达面板。首次启用自动读取原插件配置。启用前请停用 0xPvpPlugin 与 TyniaPVPRadar 旧插件。",
+    "AssemblyVersion": "1.1.0.0",
+    "Punchline": "忍者选人、暗黑骑士夜昏方向辅助与完整战场雷达",
+    "Description": "整合 API 15 职业辅助与完整 PVP 雷达。忍者自动选择仅在当前职业为忍者时生效。暗黑骑士手动释放夜昏时，按角色前后各 15 米、总宽 6 米计算覆盖敌人最多的任意角度，取消当前与临时目标并调整面向；释放失败会恢复原状态。保留忍者热栏调整、移动设置、地图与 3D 雷达、玩家列表、标记、关注列表、连线及目标信息增强。输入 /aihanapvp 打开设置，/aihanapvp drk 打开暗黑骑士设置。",
     "RepoUrl": "https://github.com/A1hana/DalamudPlugins",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "Tags": [
       "pvp",
       "ninja",
+      "darkknight",
       "radar",
       "忍者",
+      "暗黑骑士",
       "雷达"
     ],
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.0.0.0.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.0.0.0.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.0.0.0.zip",
-    "LastUpdate": 1790075743
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.1.0.0.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.1.0.0.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.1.0.0.zip",
+    "LastUpdate": 1792995543,
+    "Changelog": "1.1.0.0：按职业隔离忍者选择逻辑；新增暗黑骑士夜昏最大覆盖方向计算，仅在手动释放时调整面向。兼容旧配置。"
   }
 ]
