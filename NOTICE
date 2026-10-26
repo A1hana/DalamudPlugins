@@ -14,7 +14,7 @@ Distributed under GNU AGPL version 3 or later. See LICENSE.md.
 Corresponding source: https://github.com/A1hana/DalamudPlugins
 Existing third-party license notices are preserved.
 
-Aihana PVP integrated installer (AihanaPvp 1.1.0.0):
+Aihana PVP integrated installer (AihanaPvp 1.1.0.1):
 The ninja component adapts the local 0xPvpPlugin API 15 project. The radar
 component adapts the local TyniaPVPRadar 1.0.7.9 reconstruction. Its package
 includes THIRD_PARTY.txt and the MIT license for OmenTools. TinyPinyin is
