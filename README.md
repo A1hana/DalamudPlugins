@@ -1,6 +1,6 @@
 # Aihana Dalamud Plugins
 
-FF14 Dalamud 插件仓库，提供 **Samurai PvP · 斩铁剑助手** 与 **Aihana PVP · 职业辅助与雷达**（API 15）。
+FF14 Dalamud 插件仓库，提供 **Samurai PvP · 斩铁剑助手**、**Aihana PVP · 职业辅助与雷达**，以及 **CleaveCompass 群攻罗盘**、**Aihana Tuner 战斗调节器**测试版（API 15）。新增两款均为**测试版，未实测，可能崩溃**。
 
 ## 安装
 
@@ -33,3 +33,18 @@ https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/pluginmaster.json
 输入 `/samlb` 打开设置；`/samlb on`、`/samlb off` 开关插件，`/samlb hud` 切换人数显示。
 
 人数根据客户端状态估算，实际结果可能受延迟、移动、回血和护盾变化影响。
+
+## 新增测试版插件
+
+> **测试版，未实测，可能崩溃。** 以下两款插件尚未完成游戏内加载、实际战斗和兼容性验证；编译通过和离线检查不代表游戏内稳定。
+
+两款插件均标记为 **仅测试版**，通过上面的同一仓库地址获取。如搜索不到，请开启测试版插件显示后刷新。不要同时加载同名开发版。
+
+| 插件 | 主要功能 | 命令 | 下载 |
+| --- | --- | --- | --- |
+| **【测试版】CleaveCompass 群攻罗盘** | 圆形、扇形、直线群攻覆盖估算和一键选人；移动预测、防误拉怪 | `/cleave` | [安装包](packages/CleaveCompass-1.0.0.0-testing.zip) · [源码](packages/CleaveCompass-1.0.0.0-testing-source.zip) |
+| **【测试版】Aihana Tuner 战斗调节器** | 移速倍率、互斥的射程倍率／加算、受迫位移倍率、本地状态屏蔽与魅惑恐惧移动拦截 | `/atune` | [安装包](packages/AihanaTuner-1.0.0.0-testing.zip) · [源码](packages/AihanaTuner-1.0.0.0-testing-source.zip) |
+
+AihanaTuner 默认全部停用，`/atune off` 可停止全部修改。位移倍率为 0 时仍调用原函数，仅将距离归零；原动作锁定可能保留。本地状态屏蔽不能保证服务器判定为免疫。
+
+中文说明：[群攻罗盘使用手册](docs/CleaveCompass/群攻罗盘使用手册.docx) · [战斗调节器使用说明](docs/AihanaTuner/战斗调节器使用说明.docx)。详见[本次测试版发布说明](TESTING-RELEASE-2026-10-27.md)。安装包和源码包内均包含对应许可证。
