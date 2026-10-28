@@ -50,3 +50,13 @@ https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/pluginmaster.json
 AihanaTuner 默认全部停用，`/atune off` 可停止全部修改。位移倍率为 0 时仍调用原函数，仅将距离归零；原动作锁定可能保留。本地状态屏蔽不能保证服务器判定为免疫。
 
 中文说明：[群攻罗盘使用手册](docs/CleaveCompass/群攻罗盘使用手册.docx) · [战斗调节器使用说明](docs/AihanaTuner/战斗调节器使用说明.docx)。详见[本次测试版发布说明](TESTING-RELEASE-2026-10-27.md)。安装包和源码包内均包含对应许可证。
+
+## 魔光键影助手个人环境兼容版
+
+**仅为个人配置环境兼容版。** `KeyboundBrawlerLocal 0.1.0.7` 基于 [NiGuangOwO 的 KeyboundBrawler 0.1.0.6](https://github.com/NiGuangOwO/DalamudPlugins/tree/main/plugins/KeyboundBrawler)，适配个人使用的国服客户端 `2026.10.06.0000.0000`、Dalamud `26-10-21-01 / API 15` 环境，不代表原作者官方更新或其他配置环境的兼容承诺。
+
+修复 Dalamud AgentLifecycle 替换虚函数表后，原插件因直接比较地址而触发的挂机计时校验误报；保留其他结构与代码检查，并增加失败原因日志。已完成编译和 13 项离线检查，尚未完成修复版游戏内自动提交验证。
+
+通过本仓库插件源刷新列表后，搜索 **魔光键影助手（个人环境兼容版）** 安装。安装前禁用原版及同名开发版，避免命令和自动输入冲突；命令为 `/keybound` 或 `/ktg`。
+
+[下载编译安装包](packages/KeyboundBrawlerLocal-0.1.0.7.zip)。本次仅发布修复版编译包及安装索引，不上传源码。包内仅含 `KeyboundBrawlerLocal.dll`、`KeyboundBrawlerLocal.deps.json`、`KeyboundBrawlerLocal.json`；原插件作者署名予以保留。

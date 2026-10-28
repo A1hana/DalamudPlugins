@@ -117,5 +117,33 @@
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaTuner-1.0.0.0-testing.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaTuner-1.0.0.0-testing.zip",
     "LastUpdate": 1793083646
+  },
+  {
+    "Author": "NiGuangOwO（原作者） / Aihana（个人环境兼容）",
+    "Name": "魔光键影助手（个人环境兼容版）",
+    "InternalName": "KeyboundBrawlerLocal",
+    "AssemblyVersion": "0.1.0.7",
+    "Description": "仅为个人配置环境兼容版。基于 NiGuangOwO 的 KeyboundBrawler 0.1.0.6，针对个人使用的国服客户端 2026.10.06.0000.0000、Dalamud 26-10-21-01 / API 15 环境，修复 AgentLifecycle 替换虚函数表导致的挂机计时校验误报。保留原有自动输入、提交间隔及暂停功能。加载前禁用原版及同名开发版。命令 /keybound 或 /ktg。已通过编译及 13 项离线检查，尚未完成修复版游戏内自动提交验证。",
+    "ApplicableVersion": "any",
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "仅为个人配置环境兼容版",
+    "AcceptsFeedback": false,
+    "RepoUrl": "https://github.com/A1hana/DalamudPlugins",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/KeyboundBrawlerLocal-0.1.0.7.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/KeyboundBrawlerLocal-0.1.0.7.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/KeyboundBrawlerLocal-0.1.0.7.zip",
+    "Tags": [
+      "keybound",
+      "魔光键影",
+      "个人配置环境兼容版"
+    ],
+    "LastUpdate": 1793189981,
+    "Changelog": "0.1.0.7：仅为个人配置环境兼容版。通过 Dalamud 的原始虚函数表解析接口修复挂机计时校验误报，保留其他检查并增加失败诊断。仅发布编译安装包，不包含源码。"
   }
 ]
