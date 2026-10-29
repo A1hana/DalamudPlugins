@@ -23,12 +23,12 @@
     "LastUpdate": 1789089645
   },
   {
-    "Author": "Aihana",
-    "Name": "Aihana PVP · 职业辅助与雷达",
+    "Author": "",
+    "Name": "PVP 助手",
     "InternalName": "AihanaPvp",
-    "AssemblyVersion": "1.1.0.2",
+    "AssemblyVersion": "1.2.0.0",
     "Punchline": "忍者选人、暗黑骑士夜昏方向辅助与完整战场雷达",
-    "Description": "整合 API 15 职业辅助与完整 PVP 雷达。忍者自动选择仅在当前职业为忍者时生效。暗黑骑士手动释放夜昏时，按角色前后各 15 米、总宽 6 米计算覆盖敌人最多的任意角度，取消当前与临时目标并调整面向；释放失败会恢复原状态。保留忍者热栏调整、移动设置、地图与 3D 雷达、玩家列表、标记、关注列表、连线及目标信息增强。输入 /aihanapvp 打开设置，/aihanapvp drk 打开暗黑骑士设置。",
+    "Description": "通过 /pvp 打开统一菜单，手动选择忍者选人设置、暗黑骑士、雷达或移动功能。忍者模块整体移植项目内已测试版本，保留原目标锁定、连杀、免疫过滤和技能拦截。",
     "RepoUrl": "https://github.com/A1hana/DalamudPlugins",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
@@ -43,11 +43,11 @@
     ],
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.1.0.2.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.1.0.2.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.1.0.2.zip",
-    "LastUpdate": 1793154016,
-    "Changelog": "1.1.0.2：修复当前客户端移速字段匹配失败；增加应用状态与重新应用按钮、写入回读和失败回退；角色就绪后自动应用，恢复默认或卸载时还原原始速度。"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.2.0.0.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.2.0.0.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.2.0.0.zip",
+    "LastUpdate": 1793239698,
+    "Changelog": "1.2.0.0：整体移植已测试选人插件；仅用 /pvp 打开统一菜单；清理界面旧作者名称及旧快捷指令。"
   },
   {
     "Author": "Aihana",
