@@ -122,8 +122,8 @@
     "Author": "NiGuangOwO（原作者） / Aihana（个人环境兼容）",
     "Name": "魔光键影助手（个人环境兼容版）",
     "InternalName": "KeyboundBrawlerLocal",
-    "AssemblyVersion": "0.1.0.8",
-    "Description": "仅为个人配置环境兼容版。基于 NiGuangOwO 的 KeyboundBrawler 0.1.0.6，适配个人使用的国服客户端 2026.10.06.0000.0000、Dalamud 26-10-21-01 / API 15 环境。保留 0.1.0.7 的 AgentLifecycle 虚函数表兼容修复；0.1.0.8 修复阶段切换时窗口暂时隐藏被误判为本场停止的问题，窗口稳定后重新校验并继续，保留手动暂停与累计提交次数。加载前禁用原版及同名开发版。命令 /keybound 或 /ktg。已通过编译及 34 项离线检查，阶段恢复效果待游戏内验证。",
+    "AssemblyVersion": "0.1.0.13",
+    "Description": "仅为个人配置环境兼容版。基于 NiGuangOwO KeyboundBrawler 0.1.0.12，保留固定或按词条长度动态调整提交间隔、随机范围抖动、悬浮窗延迟调节和结算自动退出。适配个人国服客户端 2026.10.06.0000.0000、Dalamud 26-10-21-01 / API 15，保留虚函数表兼容及阶段切换恢复修复；窗口稳定后重新校验，保留手动暂停和累计提交次数。取消固定与动态间隔的 500ms 下限，可设 0–30000ms；0 表示不额外等待，动态模式仍叠加每字延迟与抖动。命令 /keybound 或 /ktg。加载前禁用原版及同名开发版。已通过编译及 84 项离线检查，新版功能及阶段恢复待游戏内验证。",
     "ApplicableVersion": "any",
     "DalamudApiLevel": 15,
     "LoadRequiredState": 0,
@@ -135,15 +135,17 @@
     "RepoUrl": "https://github.com/A1hana/DalamudPlugins",
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/KeyboundBrawlerLocal-0.1.0.8.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/KeyboundBrawlerLocal-0.1.0.8.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/KeyboundBrawlerLocal-0.1.0.8.zip",
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/KeyboundBrawlerLocal-0.1.0.13.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/KeyboundBrawlerLocal-0.1.0.13.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/KeyboundBrawlerLocal-0.1.0.13.zip",
     "Tags": [
+      "goldsaucer",
+      "minigame",
       "keybound",
-      "魔光键影",
-      "个人配置环境兼容版"
+      "金碟",
+      "魔光键影"
     ],
-    "LastUpdate": 1793235531,
-    "Changelog": "0.1.0.8：仅为个人配置环境兼容版。修复阶段切换期间比赛窗口暂时隐藏导致的永久停止；界面稳定 250ms 后重新校验并恢复，保留手动暂停与累计提交次数，重新等待词条提交间隔。保留结构和内存校验，补充阶段等待与恢复日志。34 项离线检查通过，实际阶段恢复效果待游戏内验证。仅发布编译包，不包含源码。"
+    "LastUpdate": 1793236458,
+    "Changelog": "0.1.0.13：仅为个人配置环境兼容版。同步原版 0.1.0.12 的动态字符延迟、抖动、悬浮窗调节及结算自动退出；保留虚函数表兼容、阶段切换等待与重建后恢复、手动暂停和累计提交次数。固定及动态间隔下限由 500ms 改为 0ms，保持上游首次立即提交和仅两次提交之间计时。84 项离线检查通过，待游戏内验证。仅发布编译包。"
   }
 ]
