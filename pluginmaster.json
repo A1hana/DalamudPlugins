@@ -23,10 +23,10 @@
     "LastUpdate": 1789089645
   },
   {
-    "Author": "",
-    "Name": "PVP 助手",
+    "Author": "Aihana",
+    "Name": "Aihana PVP 助手",
     "InternalName": "AihanaPvp",
-    "AssemblyVersion": "1.2.0.0",
+    "AssemblyVersion": "1.2.0.1",
     "Punchline": "忍者选人、暗黑骑士夜昏方向辅助与完整战场雷达",
     "Description": "通过 /pvp 打开统一菜单，手动选择忍者选人设置、暗黑骑士、雷达或移动功能。忍者模块整体移植项目内已测试版本，保留原目标锁定、连杀、免疫过滤和技能拦截。",
     "RepoUrl": "https://github.com/A1hana/DalamudPlugins",
@@ -43,11 +43,11 @@
     ],
     "IsHide": false,
     "IsTestingExclusive": false,
-    "DownloadLinkInstall": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.2.0.0.zip",
-    "DownloadLinkUpdate": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.2.0.0.zip",
-    "DownloadLinkTesting": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.2.0.0.zip",
-    "LastUpdate": 1793239698,
-    "Changelog": "1.2.0.0：整体移植已测试选人插件；仅用 /pvp 打开统一菜单；清理界面旧作者名称及旧快捷指令。"
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.2.0.1.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.2.0.1.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/A1hana/DalamudPlugins/main/packages/AihanaPvp-1.2.0.1.zip",
+    "LastUpdate": 1793243933,
+    "Changelog": "1.2.0.1：恢复作者 Aihana 和统一的 Aihana 显示名称；菜单指令仍为 /pvp。"
   },
   {
     "Author": "Aihana",
