@@ -53,10 +53,12 @@ AihanaTuner 默认全部停用，`/atune off` 可停止全部修改。位移倍�
 
 ## 魔光键影助手个人环境兼容版
 
-**仅为个人配置环境兼容版。** `KeyboundBrawlerLocal 0.1.0.7` 基于 [NiGuangOwO 的 KeyboundBrawler 0.1.0.6](https://github.com/NiGuangOwO/DalamudPlugins/tree/main/plugins/KeyboundBrawler)，适配个人使用的国服客户端 `2026.10.06.0000.0000`、Dalamud `26-10-21-01 / API 15` 环境，不代表原作者官方更新或其他配置环境的兼容承诺。
+**仅为个人配置环境兼容版。** `KeyboundBrawlerLocal 0.1.0.8` 基于 [NiGuangOwO 的 KeyboundBrawler 0.1.0.6](https://github.com/NiGuangOwO/DalamudPlugins/tree/main/plugins/KeyboundBrawler)，适配个人使用的国服客户端 `2026.10.06.0000.0000`、Dalamud `26-10-21-01 / API 15` 环境，不代表原作者官方更新或其他配置环境的兼容承诺。
 
-修复 Dalamud AgentLifecycle 替换虚函数表后，原插件因直接比较地址而触发的挂机计时校验误报；保留其他结构与代码检查，并增加失败原因日志。已完成编译和 13 项离线检查，尚未完成修复版游戏内自动提交验证。
+0.1.0.7 修复 Dalamud AgentLifecycle 替换虚函数表后触发的挂机计时校验误报。0.1.0.8 进一步修复阶段切换时，窗口暂时隐藏导致“比赛界面已关闭或不可读，本场自动输入已停止”的误判。切换期间暂停输入；窗口稳定 250ms 后重新校验并继续，保留手动暂停状态和累计提交次数，清理旧阶段的词条缓存并重新等待提交间隔。其他结构、代码和内存检查继续保留，并增加阶段等待与恢复日志。
 
-通过本仓库插件源刷新列表后，搜索 **魔光键影助手（个人环境兼容版）** 安装。安装前禁用原版及同名开发版，避免命令和自动输入冲突；命令为 `/keybound` 或 `/ktg`。
+已完成编译（0 警告、0 错误）和 34 项离线检查，其中包含旧版故障状态复现与阶段切换回归检查。0.1.0.7 在个人环境日志中已有实际提交记录；0.1.0.8 的阶段恢复效果仍待游戏内验证。
 
-[下载编译安装包](packages/KeyboundBrawlerLocal-0.1.0.7.zip)。本次仅发布修复版编译包及安装索引，不上传源码。包内仅含 `KeyboundBrawlerLocal.dll`、`KeyboundBrawlerLocal.deps.json`、`KeyboundBrawlerLocal.json`；原插件作者署名予以保留。
+通过本仓库插件源刷新列表后，搜索 **魔光键影助手（个人环境兼容版）** 安装或更新。安装前禁用原版及同名开发版，避免命令和自动输入冲突；命令为 `/keybound` 或 `/ktg`。
+
+[下载编译安装包](packages/KeyboundBrawlerLocal-0.1.0.8.zip)。本次仅发布修复版编译包及安装索引，不上传源码。包内仅含 `KeyboundBrawlerLocal.dll`、`KeyboundBrawlerLocal.deps.json`、`KeyboundBrawlerLocal.json`；原插件作者署名予以保留。
